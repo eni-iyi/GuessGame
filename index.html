@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Geussing Game</title>
+    <link rel="stylesheet" href="./game.css" />
+  </head>
+  <body>
+    <section class="realgame">
+      <div class="main">
+        <div class="header">
+          <div class="logo">
+            <img src="./image/logo2.jpg" alt="" />
+          </div>
+          <div class="list">
+            <ul>
+              <li>HOME</li>
+              <li>ABOUT</li>
+              <li>REWARD</li>
+              <li>CONTACT</li>
+            </ul>
+          </div>
+        </div>
+        <div class="game">
+          <div class="comment">
+            <div class="overlay"></div>
+            <h1 style="font-size: 30px; color: white;">
+              Play a Guess Game by choosing a Number Between 1 To 10.<br />
+              Guess right and Win a Ticket to Watch the Final of a World cup
+              2022 in Qatar. Good Luck
+            </h1>
+          </div>
+          <div class="link">
+            <label for="game" style="font-size: 30px; color: white;" id="load">
+              You Only Have 5 Chances</label>
+            <br />
+            <form action="">
+              <input
+                type="number"
+                id="game"
+                name="game"
+                style="padding: 10px; width: 200px; "/>
+                <input type="Submit" value="Let's play" style="padding: 10px; width:90px; color: blue; font-size: 15px;background-color:aquamarine;" id="lead" >
+            </form>
+           
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="./game.js"></script>
+  </body>
+</html>
